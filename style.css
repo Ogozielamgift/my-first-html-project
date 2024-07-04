@@ -685,13 +685,21 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 200px;
+  width: 270px;
   height: 50px;
   background-color: rgba(32, 9, 117, 0.699);
-  border-style: solid;
   color: white;
-  border-width: 1px;
-  border-radius: 2px;
+  cursor: pointer;
+  margin-top: 100px;
+}
+.down:hover {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  height: 50px;
+  background-color: rgba(45, 14, 156, 0.479);
+  color: white;
   cursor: pointer;
   margin-top: 100px;
 }
